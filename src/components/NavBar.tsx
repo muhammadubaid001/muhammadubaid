@@ -33,7 +33,7 @@ const NavBar: React.FC<TProps> = ({name}: TProps) => {
                     </button>
                 </div>
 
-                <div className={`${!show ? 'hidden' : ''} w-full md:justify-between md:w-auto md:flex-grow md:flex items-center`}>
+                <div className={`${!show ? 'hidden' : ''} max-w-full md:justify-between md:w-auto md:flex-grow md:flex items-center`}>
                     
                     <ul className="flex flex-col mt-4 -mx-4 pt-4 border-t border-gray-700 text-gray-200 md:flex-row md:items-center md:mx-0 md:mt-0 md:pt-0 md:mr-4 lg:mr-8 md:border-0">
                         <li>
