@@ -43,7 +43,7 @@ const NavBar: React.FC<TProps> = ({name}: TProps) => {
                             <NavLink to="/about" activeClassName="bg-gray-800 text-gray-100" className="block hover:bg-gray-800 text-gray-100 px-4 py-3 md:p-5 lg:px-4">About</NavLink>
                         </li>
                         <li>
-                            <NavLink to="/contact" activeClassName="bg-gray-800 text-gray-100" className="block hover:bg-gray-800 text-gray-100 px-4 py-3 md:p-5 lg:px-4">Contact</NavLink>
+                            <NavLink to="/contact" activeClassName="bg-green-800 text-gray-100" className="block hover:bg-gray-800 text-gray-100 px-4 py-3 md:p-5 lg:px-4">Contact</NavLink>
                         </li>
                     </ul>
 
